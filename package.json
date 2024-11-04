@@ -11,6 +11,7 @@
         "lint": "eslint ./src/**",
         "lint:fix": "eslint ./src/** --fix",
         "build": "tsc",
+        "generate": "prisma generate",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Tatiana Vanzidler",
@@ -24,7 +25,8 @@
         "bcryptjs": "^2.4.3",
         "class-transformer": "^0.4.0",
 		"class-validator": "^0.13.1",
-        "dotenv": "^10.0.0"
+        "dotenv": "^10.0.0",
+        "@prisma/client": "^3.3.0"
     },
     "devDependencies": {
         "@types/bcryptjs": "^2.4.2",
@@ -37,6 +39,7 @@
         "prettier": "^2.4.1",
         "typescript": "^4.4.4",
         "nodemon": "^2.0.13",
-        "ts-node": "^10.3.0"
+        "ts-node": "^10.3.0",
+        "prisma": "^3.3.0"
     }
 }
