@@ -1,5 +1,5 @@
 import { UserModel } from '@prisma/client';
-import { UserRegisterDto } from './dto/use-register.dto';
+import { UserRegisterDto } from './dto/user-register.dto';
 import { UserLoginDto } from './dto/user-login.dto';
 import { User } from './use.entity';
 
