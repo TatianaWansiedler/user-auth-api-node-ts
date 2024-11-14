@@ -1,8 +1,8 @@
 import { inject, injectable } from 'inversify';
 import { UserRegisterDto } from './dto/user-register.dto';
 import { UserLoginDto } from './dto/user-login.dto';
-import { User } from './use.entity';
-import { IUserService } from './user.service.interface';
+import { User } from './user.entity';
+import { IUserService } from './users.service.interface';
 import { TYPES } from '../types';
 import { IConfigService } from '../config/config.service.interface';
 import { IUsersRepository } from './users.repository.interface';

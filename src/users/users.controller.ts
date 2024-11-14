@@ -11,7 +11,7 @@ import { ValidateMiddleware } from '../common/validate.middleware';
 import { sign } from 'jsonwebtoken';
 import { IConfigService } from '../config/config.service.interface';
 import { UserRegisterDto } from './dto/user-register.dto';
-import { IUserService } from './user.service.interface';
+import { IUserService } from './users.service.interface';
 import { AuthGuard } from '../common/auth.guard';
 
 @injectable()
